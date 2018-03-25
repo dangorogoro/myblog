@@ -3,3 +3,4 @@ output/*
 Flex/
 Makefile
 nohup*
+__pycache__/*
