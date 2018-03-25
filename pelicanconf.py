@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Me'
 SITENAME = 'Dango Kajero'
-SITEURL = 'http://utcb.ikiu.me:8000'
+SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 STATIC_PATHS = ['images','articles']
