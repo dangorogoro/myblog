@@ -8,6 +8,7 @@ SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 STATIC_PATHS = ['images','articles']
+PLUGIN_PATHS = ['plugins']
 FAVICON = '/images/image.ico'
 SITELOGO = '/images/image.png'
 
@@ -31,14 +32,17 @@ AUTHOR_FEED_RSS = None
 #         ('You can modify those links in your config file', '#'),)
 
 MENUITEMS = (('Archives', '/archives.html'),
-             ('Categories', '/categories.html'),
-             ('Tags', '/tags.html'),)
+        ('Categories', '/categories.html'),
+        ('Tags', '/tags.html'),)
 LINKS = (('Archives', '/archives.html'),
-             ('Categories', '/categories.html'),
-             ('Tags', '/tags.html'),)
+        ('Categories', '/categories.html'),
+        ('Tags', '/tags.html'),)
 # Social widget
 SOCIAL = (('github', 'https://github.com/dangorogoro'),
         ('twitter', 'https://twitter.com/dango_bot'),)
+
+PLUGINS = ['share_post']
+SHARE_POST_INTRO = 'Like this post? Share on:'
 
 DISPLAY_CATEGORIES_ON_MENU = True
 DEFAULT_PAGINATION = 10
@@ -52,4 +56,3 @@ HOME_HIDE_TAGS = True
 DISPLAY_PAGES_ON_MENU = True
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-
