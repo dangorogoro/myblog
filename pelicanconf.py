@@ -7,8 +7,17 @@ SITENAME = 'Dango Kajero'
 SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
-STATIC_PATHS = ['images','articles']
+STATIC_PATHS = ['images','articles','pdfs']
 PLUGIN_PATHS = ['plugins']
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}
+
 FAVICON = '/images/image.ico'
 SITELOGO = '/images/image.png'
 
@@ -40,7 +49,6 @@ LINKS = (('Archives', '/archives.html'),
 # Social widget
 SOCIAL = (('github', 'https://github.com/dangorogoro'),
         ('twitter', 'https://twitter.com/dango_bot'),)
-
 PLUGINS = ['share_post']
 SHARE_POST_INTRO = 'Like this post? Share on:'
 
