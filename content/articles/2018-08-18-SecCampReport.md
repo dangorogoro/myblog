@@ -106,6 +106,8 @@ Cortex-Mシリーズではメモリ内部でセキュア領域(Secure World)と�
 
 後, 以前から欲しかった本が事前学習用として送られてきて嬉しかったです.
 
+## お昼
+![Lunch3]({filename}/images/2018-08-18-Day3Lunch.jpg)
 ## D5 JTAG(ジェイタグ)の原理と活用
 
 [!embed](https://twitter.com/security_camp/status/1029967041715875840)
@@ -119,8 +121,11 @@ JTAGは4本のシリアル接続でICの内部回路と通信し, ICの状態を
 講義では以下のようなボードに対してIOピンの入出力を変更して, 動作してないはずのLEDを光らせたり, 入出力状態を調べたりしました.
 JLINKについてはまだまだ分からないところがあるのでお勉強していきたいなと思いました.
 
-### JTAG Board
+## JTAG Board
 ![JTAG]({filename}/images/2018-08-18-JTAG.jpg)
+
+## 夕飯 
+![Dinner3]({filename}/images/2018-08-18-Day3Dinner.jpg)
 
 # 4日目
 ## D6 組込みリアルタイムOSとIoTシステム演習 ～守って！攻めて！ロボット制御バトルで体験する組込みセキュリティ～
@@ -146,6 +151,8 @@ RTOSは僕が以前, Maker Faire Tokyo2018の際にESP32で使いました.
 ## ロボット
 ![Robot]({filename}/images/2018-08-18-Day4Robot.jpeg)
 
+## お昼
+![Lunch4]({filename}/images/2018-08-18-Day4Lunch.jpg)
 ## C7 攻防型CTFによるWebオンラインゲームのチート行為の体験
 
 [!embed](https://twitter.com/security_camp/status/1030338738914701312)
@@ -157,7 +164,13 @@ RTOSは僕が以前, Maker Faire Tokyo2018の際にESP32で使いました.
 当日の講義ではWebブラウザのDeveloperToolを使ってJavascriptのコードをbreak point立てながら値を書き換えたりしてキャラクターの移動を高速化したりしました.
 いかんせん, 初めてだったのであまり高速化させたりできなかったですが, やり方は分かったので, 自分でサーバーを建ててやってみたいです.
 
+## 夕飯
+![Dinner4]({filename}/images/2018-08-18-Day4Dinner.jpg)
 
+# 5日目
+最終日は他の受講生の成果物などを聞きました. 集中コースなどの製作物がとてもセキュキャンの間だけで出来るような物には思えないような物もあってすごいなと思いました.
+
+[!embed](https://twitter.com/security_camp/status/1030709391979294720)
 
 # 感想
 普段, セキュリティとは全く関係のなさそうなレイヤーで活動しているので当初は無事に生きてるかなと思いましたが, 講義はどれも面白かったし, 色んな人と交流できたので来てよかったと思います.
