@@ -8,6 +8,7 @@ SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 STATIC_PATHS = ['images','articles','pdfs']
+ARTICLE_PATHS = ['articles']
 PLUGIN_PATHS = ['plugins']
 MARKDOWN = {
     'extension_configs': {
