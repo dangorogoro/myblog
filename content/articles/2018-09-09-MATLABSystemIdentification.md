@@ -1,9 +1,8 @@
-Title: MATLABでマイクロマウスの機体をシステム同定する
+Title: MATLABでマイクロマウスの機体をシステム同定してPIDチューニングする.
 Date: 2018-09-09
 Category: ロボット
 Tags: マイクロマウス, MATLAB
 Slug: MATLABSystemIdentification
-Status: draft
 
 # MATLABで マウスの同定 やりました.
 表題の通り, MATLABでマイクロマウスの機体(2輪ロボット)の左右のモーターへのステップ応答から車体の伝達関数を出しました.
@@ -154,6 +153,11 @@ Importを押すとこんな感じのものが出ます.
 
 後は, これらのパラメーターをあなたのロボットのソースコード中で使ってください.
 
+最後にExportを押すと, 設計したコントローラーとPlantを変数にして出力できるので, saveしてあげれば後で再度利用することもできます.
+```Matlab
+save('transModel.mat', 'C', 'Plant1')
+```
+
 ## 回転方向
 また, 回転方向の同定を行うため, 同様に同定実験を行いました.
 
@@ -213,4 +217,7 @@ Importを押すとこんな感じのものが出ます.
 
 # まとめ
 MATLABはいいぞ. おしまいー.
+
+## PS
+記事を書く上で, [ところさん](https://twitter.com/tokoro10g)と[idさん](https://twitter.com/idt12312)から色々アドバイスをいただきました. ありがとうございます＞＜
 
