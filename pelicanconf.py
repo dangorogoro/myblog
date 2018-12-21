@@ -52,7 +52,7 @@ LINKS = (('Archives', '/archives.html'),
 # Social widget
 SOCIAL = (('github', 'https://github.com/dangorogoro'),
         ('twitter', 'https://twitter.com/dango_bot'),)
-PLUGINS = ['share_post']
+PLUGINS = ['share_post', 'render_math']
 SHARE_POST_INTRO = 'Like this post? Share on:'
 
 DISPLAY_CATEGORIES_ON_MENU = True
